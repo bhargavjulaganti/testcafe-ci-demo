@@ -1,0 +1,23 @@
+{
+  "name": "tc-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "testcafe chrome:headless tests/**/* -r xunit:/tmp/test-results/res.xml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^8.0.0",
+    "custom-env": "^1.0.1",
+    "querystring": "^0.2.0",
+    "testcafe-browser-provider-saucelabs": "^1.7.0",
+    "testcafe-reporter-html": "^1.4.4"
+  },
+  "devDependencies": {
+    "testcafe": "^1.2.0",
+    "testcafe-reporter-xunit": "^2.1.0"
+  }
+}
